@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Collections from './components/Collections';
-import reportWebVitals from './reportWebVitals';
+import App from './components/App';
  
-ReactDOM.render(<Collections />, document.getElementById('root'));
 
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
